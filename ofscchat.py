@@ -25,7 +25,7 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 import os
 from langchain.memory import ConversationBufferMemory
 
-os.environ['TAVILY_API_KEY'] = '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'
+os.environ['TAVILY_API_KEY'] = ''
 
 search = TavilySearchResults()
 
